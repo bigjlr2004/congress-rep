@@ -1,0 +1,24 @@
+.pageHeader {
+  text-align: center;
+}
+.main-component {
+  display: flex; /* display the child elements in a Flex layout*/
+  justify-content: space-evenly;
+}
+
+.representative-block {
+  flex-basis: 16%; /* Make each child element the same size. */
+  border: 1px dotted black;
+  padding: 0.5em;
+  margin: 0.5em;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.representative-image {
+  text-align: center;
+}
